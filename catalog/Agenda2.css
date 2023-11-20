@@ -1,0 +1,101 @@
+body {
+  background-color:#C8AD7F ;
+  font-family:"Times New Roman", Times, serif; 
+   font-style: oblique;
+}
+/* mouse over link */
+a:hover {
+  color:lightgreen;
+  text-decoration: underline;
+}
+
+ul {
+  background:orange ;
+  padding: 13px;
+}
+ul li {
+  background:Orange ;
+  color:#DB0073;
+  margin: 5px;
+}
+
+table, td, th {
+  border: 3px solid black;
+ 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color:#960018;
+  color:#BABABA ;
+}
+tr:hover {background-color: MediumSeaGreen;}
+
+h1 {
+  color:#791CF8;
+  margin-left: 32px;
+  font-size: 46px;  
+}
+h2{
+color:#791CF8;
+  margin-left: 40px;
+  font-size: 12px;  
+}
+h3{
+color:#791CF8;
+  margin-left: 40px;
+  font-size: 30px;  
+}
+p {
+  font-style:oblique;
+  color:#FEF86C; 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 19px;
+}
+img{
+border:5x solid black;
+width:150px;
+height:150px;
+display:block;
+padding:4px;
+margin-top:50px;
+margin-left:50px;
+ border: 8px solid #16B84E ;
+opacity:0.8;
+
+}
+/*
+EXPLICATII:
+
+background-color: #C8AD7F;: Stabilește culoarea de fundal a întregii pagini la o nuanță specifică de maro.
+-font-family: "Times New Roman", Times, serif;: Specifică familia de fonturi pentru textul din întreaga pagină.
+-font-style: oblique;: Aplică un stil de scriere înclinat (italic) pentru textul din întreaga pagină.
+-a:hover: Se referă la link-urile care sunt supuse acțiunii de hover (când utilizatorul trece cu mouse-ul peste ele).
+-color: lightgreen;: Schimbă culoarea textului link-ului în verde deschis la hover.
+-text-decoration: underline;: Adaugă subliniere la textul link-ului la hover.
+-background: orange;: Stabilește culoarea de fundal a listei neordonate (<ul>) la portocaliu.
+-padding: 13px;: Adaugă un padding de 13 pixeli în jurul listei neordonate.
+-background: orange;: Stabilește culoarea de fundal a fiecărui element din lista neordonată (<li>) la portocaliu.
+-color: #DB0073;: Stabilește culoarea textului la o nuanță specifică de roșu.
+-margin: 5px;: Adaugă un margin de 5 pixeli în jurul fiecărui element din listă.
+-border: 3px solid black;: Adaugă un chenar de 3 pixeli cu culoarea neagră în jurul tabelei, celulelor și antetelor.
+-border-collapse: collapse;: Elimină spațiul dintre celulele tabelei, creând un aspect mai compact.
+-width: 100%;: Face ca tabela să ocupe întreaga lățime a containerului său.
+-text-align: center;: Aliniază conținutul celulelor în centru.
+-background-color: #960018;: Stabilește culoarea de fundal a antetelor la o nuanță specifică de roșu.
+-color: #BABABA;: Stabilește culoarea textului în antete la o nuanță specifică de gri.
+-tr:hover: Stabilește culoarea de fundal a unei linii (rând) la hover.
+-background-color: MediumSeaGreen;: Schimbă culoarea de fundal la verde închis la hover.
+-color: #791CF8;: Stabilește culoarea textului pentru titlul de nivel 1 (<h1>) la o nuanță specifică de mov.
+-margin-left: 32px;: Adaugă un margin la stânga pentru a crea spațiu între titlu și marginea stângă a paginii.
+-font-size: 46px;: Stabilește mărimea fontului pentru titlul de nivel 1.
+
+*/

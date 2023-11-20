@@ -74,25 +74,30 @@ margin-left:50px;
  border: 8px solid lightgreen;
 opacity:0.8;
 }
-</style>
-</head>
- <body>
- 
-<h1>About me </h1>
- <p>1.Nume:Ianos</p>
- <p>2.Prenume:Elena-Maria</P>
- <p>3.E-mail: <a href="ianosmaria312@gmail.com">ianosmaria312@gmail.com</a></p>
- <p>4.Poza:</p>
- <img src="poza.jpeg" width="250" height="250">
- <p>5.Citat reprezentativ:“ If you can’t explain it simply, you don’t understand it well enough.” 
-„Natura ne aseamana. Educatia ne deosebeste.”, de aceea ma voi stradui constant sa inteleg informatiile predate de catre inegalabilul profesor ETTI. </p>
-<br>
-      <style>
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+.new-body{
+  background-color: yellow;
+  color: green !important;
+}
 </style>
+</head>
+<body id="body" >
+  <div class="container">  
+  <section class="me">
+     <h1>About me </h1>
+     <p id="numeprenume">1.Nume Prenume:Ianos Elena-Maria</p>
+     <p>2.E-mail: <a href="ianosmaria312@gmail.com">ianosmaria312@gmail.com</a></p>
+     <p>3.Poza:</p>
+     <img id="poza" src="img/poza.jpeg" width="250" height="250">
+     <p>4.Citat reprezentativ:“ If you can’t explain it simply, you don’t understand it well enough.” 
+       „Natura ne aseamana. Educatia ne deosebeste.”, de aceea ma voi stradui constant sa inteleg informatiile predate de catre inegalabilul profesor ETTI. </p>
+       <br>
+    </section>
 <h2>Discipline</h2>
 
 <table style="width:90%">
@@ -109,35 +114,36 @@ table, th, td {
   <tr>
     <td>Programarea calculatoarelor si limbaje de programare</td>
     <td>anul 1,semestrul 1 si semestrul 2</td>
-	<td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/04b.pdf">Fisa disciplinei</a></</td>
+    <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/04b.pdf">Fisa disciplinei</a></</td>
   </tr>
   <tr>
-	<td>Fizica I</td>
+    <td>Fizica I</td>
     <td>anul 1, semestrul 1</td>
     <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/03.pdf">Fisa disciplinei</a></</td>
-	
+    
   </tr>
   <tr>
-  <td>Componente si circuite pasive</td>
-  <td>anul 1, semestrul 1</td>
-  <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/05b.pdf">Fisa disciplinei</a></</td>
+    <td>Componente si circuite pasive</td>
+    <td>anul 1, semestrul 1</td>
+    <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/05b.pdf">Fisa disciplinei</a></</td>
   </tr>
   <tr>
-  <td>Informatica aplicata </td>
-  <td>anul 1,semestrul 1</td>
-  <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">Fisa disciplinei</a></</td>
+    <td>Informatica aplicata </td>
+    <td>anul 1,semestrul 1</td>
+    <td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">Fisa disciplinei</a></</td>
   </tr>
 </table>
 <br>
 <h3>Hobby-uri /Activitati reprezentative</h3>
- <ul>
-  <li>Vizionatul de filme/ seriale de pe Netflix</li>
-  <li>Consumul de muzica pop, rock</li>
-  <li>Cititul: carti de istorie, medicina</li>
-  <li>Sport: badminton</li>
+<ul>
+  <li class="hobbys">Vizionatul de filme/ seriale de pe Netflix</li>
+  <li class="hobbys">Consumul de muzica pop, rock</li>
+  <li class="hobbys">Cititul: carti de istorie, medicina</li>
+  <li class="hobbys">Sport: badminton</li>
 </ul>  
- <hr>
- 
- 
- </body>
+<hr>
+<button>Alta viata</button>
+</div>
+<script src="js/ex1.js"></script>
+</body>
 </html>
